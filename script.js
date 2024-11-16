@@ -1,6 +1,7 @@
 let btn=document.querySelector("#btn")
 let content=document.querySelector("#content")
 let voice=document.querySelector("#voice")
+let syt=document.querySelector("#syntara")
 
 function speak(text){
     let text_speak=new SpeechSynthesisUtterance(text)
@@ -32,6 +33,7 @@ recognition.onresult=(event)=>{
     let currentIndex=event.resultIndex
     let transcript=event.results[currentIndex][0].transcript
     content.innerText=transcript
+    syt.innerText = transcript
    takeCommand(transcript.toLowerCase())
 }
 
