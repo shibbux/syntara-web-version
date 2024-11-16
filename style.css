@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +21,13 @@ body{
 }
 h1{
     color: aliceblue;
-    font-family: "Protest Guerrilla", sans-serif;
+    margin-bottom: 30px;
+    background: -webkit-linear-gradient(#ffffff, #33a5da,  #1622cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Lugrasimo", cursive;
+    /* text-shadow: black; */
+    background-color: blueviolet;
 }
 #name{
     color:rgb(212, 43, 122);
@@ -36,7 +44,7 @@ h1{
    
 }
 #btn{
-width: 30%;
+width: 30;
 background: linear-gradient(to right,rgb(21, 145, 207),rgb(201, 41, 116));
 padding: 10px;
 display: flex;
@@ -54,7 +62,8 @@ cursor: pointer;
 #btn:hover{
     box-shadow: 2px 2px 20px rgb(21, 145, 207),2px 2px 20px rgb(201, 41, 116);
     letter-spacing: 2px;
-    margin: 50px;
+    font-size: x-large;
+    /* margin: 50px; */
 }
 .main{
     padding-bottom: 99px;
@@ -71,5 +80,5 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
+    flex-direction: column;
 }
