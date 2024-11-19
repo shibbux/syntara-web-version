@@ -75,7 +75,7 @@ async function getDefinition(word) {
 }
 
 async function getWeather(city = "Haryana") {
-    const apiKey = "a45b8f42edc9efe46a19537560bc7ee4"; // Replace with your OpenWeatherMap API key
+    const apiKey = " Replace with your OpenWeatherMap API key"; 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     try {
         const response = await fetch(url);
@@ -91,7 +91,7 @@ async function getWeather(city = "Haryana") {
     }
 }
 async function getNews() {
-    const apiKey = "e02b16b0c00c40149897a035cde85ff9"; // Replace with your News API key
+    const apiKey = "Replace with your News API key"; 
     const url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
     try {
         const response = await fetch(url);
@@ -123,7 +123,7 @@ function changeBackgroundColor(color) {
 
 
 async function convertCurrency(amount, fromCurrency, toCurrency) {
-    const apiKey = "bfc101318085c5a4ebce7b7c"; // Replace with a currency conversion API key
+    const apiKey = "Replace with a currency conversion API key"; 
     const url = `https://api.exchangerate-api.com/v4/latest/${fromCurrency}`;
     try {
         const response = await fetch(url);
