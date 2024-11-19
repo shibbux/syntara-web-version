@@ -3,7 +3,7 @@ let content = document.querySelector("#content");
 let voice = document.querySelector("#voice");
 let syt = document.querySelector("#syntara");
 
-let toDoList = []; // For storing to-do tasks
+let toDoList = []; 
 
 function speak(text) {
     let text_speak = new SpeechSynthesisUtterance(text);
@@ -44,7 +44,6 @@ btn.addEventListener("click", () => {
     btn.style.display = "none";
 });
 
-// To-Do List and Reminder
 function manageToDo(message) {
     if (message.includes("add to my to-do list")) {
         const task = message.replace("add to my to-do list", "").trim();
@@ -59,7 +58,6 @@ function manageToDo(message) {
     }
 }
 
-// Dictionary Look-Up
 async function getDefinition(word) {
     const url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
     try {
@@ -92,7 +90,6 @@ async function getWeather(city = "Haryana") {
         speak("There was an error fetching the weather data.");
     }
 }
-// news
 async function getNews() {
     const apiKey = "e02b16b0c00c40149897a035cde85ff9"; // Replace with your News API key
     const url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
@@ -109,7 +106,6 @@ async function getNews() {
         speak("I couldn't fetch the news at the moment.");
     }
 }
-// for joke 
 async function tellJoke() {
     try {
         const response = await fetch("https://official-joke-api.appspot.com/random_joke");
@@ -120,14 +116,12 @@ async function tellJoke() {
         speak("I couldn't fetch a joke at the moment.");
     }
 }
-// to changeBackgroundColor
 function changeBackgroundColor(color) {
     document.body.style.backgroundColor = color;
     speak(`Changing the background color to ${color}`);
 }
 
 
-// Currency Conversion
 async function convertCurrency(amount, fromCurrency, toCurrency) {
     const apiKey = "bfc101318085c5a4ebce7b7c"; // Replace with a currency conversion API key
     const url = `https://api.exchangerate-api.com/v4/latest/${fromCurrency}`;
@@ -145,7 +139,6 @@ async function convertCurrency(amount, fromCurrency, toCurrency) {
     }
 }
 
-// Math Problem Solver
 function solveMath(expression) {
     try {
         const result = eval(expression);
@@ -155,7 +148,6 @@ function solveMath(expression) {
     }
 }
 
-// Wikipedia Search
 async function searchWikipedia(query) {
     const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${query}`;
     try {
