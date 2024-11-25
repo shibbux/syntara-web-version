@@ -79,7 +79,7 @@ Syntara is an intelligent, voice-powered virtual assistant designed to simplify 
 ### Installation Steps
 1. Clone repository
    ```bash
-   git clone https://github.com/yourusername/syntara.git
+   git clone https://github.com/shibbux/syntara-web-version.git
    ```
 2. Navigate to project directory
 3. Replace API keys in `script.js`:
