@@ -130,10 +130,10 @@ Syntara is an intelligent, voice-powered virtual assistant designed to simplify 
 - JavaScript Async Programming
 
 ## 🔗 Connect
-- GitHub: [(https://github.com/shibbux)]
+- GitHub: https://github.com/shibbux
 
 
 ## 📝 License
-[This is license under MIT] (https://github.com/shibbux/syntara-web-version/LICENSE)
+[This is license under MIT] https://github.com/shibbux/syntara-web-version/LICENSE
 
 **Unleash the power of voice technology with Syntara!** 🎉🚀
