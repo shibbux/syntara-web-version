@@ -134,6 +134,6 @@ Syntara is an intelligent, voice-powered virtual assistant designed to simplify 
 
 
 ## 📝 License
-[thi is license under MIT (https://github.com/shibbux/syntara-web-version/LICENSE)]
+[This is license under MIT] (https://github.com/shibbux/syntara-web-version/LICENSE)
 
 **Unleash the power of voice technology with Syntara!** 🎉🚀
