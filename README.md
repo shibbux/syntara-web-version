@@ -1,5 +1,5 @@
-# Syntara 🤖✨
-![Syntara Logo](/path/to/logo.png)
+# Syntara ✨
+![Syntara Logo](https://i.imgur.com/loc5NF2.jpeg)
 
 ## Live Demo
 🌐 [Access Syntara Live Demo](https://syntarawebassist.netlify.app/)
@@ -130,11 +130,10 @@ Syntara is an intelligent, voice-powered virtual assistant designed to simplify 
 - JavaScript Async Programming
 
 ## 🔗 Connect
-- GitHub: [Your Profile]
-- LinkedIn: [Your Profile]
-- Portfolio: [Your Website]
+- GitHub: [(https://github.com/shibbux)]
+
 
 ## 📝 License
-[Your Chosen License]
+[]
 
 **Unleash the power of voice technology with Syntara!** 🎉🚀
